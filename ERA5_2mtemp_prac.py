@@ -11,5 +11,7 @@ print(ds)
 
 da = ds['t2m']
 
-da.plot();plt.show()
+da_t2m_timestat = da.mean('valid_time')
+
+da_t2m_timestat.plot();plt.show()
 
