@@ -12,7 +12,12 @@ def fun_extract_variable(path, fn, column):
     df = pd.read_csv(path + fn)
     variable_column = df[column]
     print(variable_column)
+    df['Year'] = df['Date'].dt.year
+    print(type(df.loc['Date']))
+    return variable_column
 
-#fun_extract_variable(path, fn, 'DISCHRG Value')
+fun_extract_variable(path, fn, 'DISCHRG Value')
 
-df.plot()
+#df.plot()
+#plt.title('Change in Discharge Over Time')
+#plt.show()
