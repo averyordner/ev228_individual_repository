@@ -17,8 +17,8 @@ da = fi.import_era5(file_path=path + fn, var='avg_surfror')
 da_time = ds['valid_time']
 #print(da_time)
 
-specific_timeslices = da.isel(valid_time=[0, 3, 7])
-print("\nSpecific timeslices at indices 0, 3, 7:")
+specific_timeslices = da.isel(valid_time=[0, 360, 720, 1020])
+print("\nSpecific timeslices at indices 0, 360, 720, 1020:")
 print(specific_timeslices)
 
 #fp.map(da_timemn, out_path=out_path, out_name=out_fn)
