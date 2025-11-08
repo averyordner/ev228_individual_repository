@@ -6,7 +6,7 @@ In order to extract specific columns from a data table in Python, you can import
 
 Generative AI Statement: I did not use generative AI for this assignment. 
 
-#Individual Research Project 
+# Individual Research Project 
 
 For this project, I am performing exploratory data analysis on ERA5 mean surface runoff rate data for Houston, Texas and surrounding areas (1940-2025 timeslices). I am creating graphs of surface runoff rate data for the years 1940, 1970, 2000, and 2025 in order to see how this variable has changed over time in this area. Houston and surrounding areas have become more urbanized since 1940, so we would expect surface mean runoff rate to increase.
 
