@@ -11,12 +11,11 @@ Generative AI Statement: I did not use generative AI for this assignment.
 For this project, I am performing exploratory data analysis on ERA5 mean surface runoff rate data for Houston, Texas and surrounding areas (1940-2025 timeslices). I am creating graphs of surface runoff rate data for the years 1940, 1970, 2000, and 2025 in order to see how this variable has changed over time in this area. Houston and surrounding areas have become more urbanized since 1940, so we would expect surface mean runoff rate to increase.
 
 In order to start this exploratory analysis, I imported important files and packages such as:
-import matplotlib.pyplot as plt
-import numpy as np
-import xarray as xr
-import cartopy.crs as ccrs
-
-import fun_imports as fi
+import matplotlib.pyplot as plt,
+import numpy as np,
+import xarray as xr,
+import cartopy.crs as ccrs,
+import fun_imports as fi, and
 import fun_plots as fp
 
 Index of Code:
