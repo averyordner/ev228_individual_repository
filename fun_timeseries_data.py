@@ -16,11 +16,13 @@ filter_year = df_year[df_data != 999.9]
 
 print(df_data)
 
-mean_var = np.mean(filter_data)
-std_var = np.std(filter_data)
-max_var = np.max(filter_data)
-min_var = np.min(filter_data)
+def statistical_tests(filter_data):
+    mean_var = np.mean(filter_data)
+    std_var = np.std(filter_data)
+    max_var = np.max(filter_data)
+    min_var = np.min(filter_data)
 
-print(mean_var, std_var, max_var, min_var)
+statistical_tests(filter_data)
+print(statistical_tests)
 
 fp.timeseries(filter_data, in_x=filter_year, out_path=out_path, out_name=out_fn)
