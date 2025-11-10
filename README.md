@@ -26,14 +26,23 @@ import fun_plots as fp
 6. Finally, I used cartopy functions to create a graph of my data
 
 Index of Code:
+
 da_runoff: the data array that imports the mean surface runoff rate data 
+
 da_time: data array that extracts the 'valid_time' values from the dataset, so I could print and read them
+
 specific_timeslices: pulls out all data corresponding to the years 1940, 1970, 2000, and 2025
+
 lon: pulls the longitude values from specific_timeslices
+
 lat: pulls the latitude values from specific_timeslices
+
 mesh: include the pcolormesh cartopy step; all of the map inputs
+
 city_lons: longitudes of the cities I chose
+
 city_lats: latitudes of the cities I chose
+
 fun_surface_runoff_plots: the function I made for creating a cartopy plot with gridded data
 
 
