@@ -37,7 +37,7 @@ lon: pulls the longitude values from specific_timeslices
 
 lat: pulls the latitude values from specific_timeslices
 
-mesh: include the pcolormesh cartopy step; all of the map inputs
+mesh: includes the pcolormesh cartopy step; all of the map inputs
 
 city_lons: longitudes of the cities I chose
 
