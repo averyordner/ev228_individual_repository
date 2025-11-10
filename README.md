@@ -39,6 +39,8 @@ lat: pulls the latitude values from specific_timeslices
 
 mesh: includes the pcolormesh cartopy step; all of the map inputs
 
+cb: this is the colorbar function that includes all necessary inputs
+
 city_lons: longitudes of the cities I chose
 
 city_lats: latitudes of the cities I chose
